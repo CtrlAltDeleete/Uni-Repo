@@ -1,0 +1,25 @@
+Description: Write a C++ program, which generates the following output. After displaying the output, 5 beeps must be generated
+
+Code:
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"This is a test."<<endl;
+    cout<<"He asked, \"How are you doing?\""<<endl;
+    cout<<"\"Education is the most powerful weapon which you can use to \'CHANGE\' the world.\""<<endl;
+
+    cin.get();
+    cout<<'\a'<<endl;
+    cin.get();
+    cout<<'\a'<<endl;
+    cin.get();
+    cout<<'\a'<<endl;
+    cin.get();
+    cout<<'\a'<<endl;
+    cin.get();
+    cout<<'\a'<<endl;
+    return 0;
+}
