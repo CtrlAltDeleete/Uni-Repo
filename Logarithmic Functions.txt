@@ -1,0 +1,29 @@
+Description: ‘cmath’ is a C++ header file which defines different mathematical functions like sin, cos, tan, square root, exponent and many others. Explore this file using internet resources and make a list of all major mathematical functions that it contains. Using your findings, write a C++ program which can perform different mathematical operations on float variables. You must take the values of required variables from the user. Your program must be capable of computing the following operations; sin, cos, tan, natural logarithm, common logarithm, exponential, raised to power, square root, ceiling and floor.
+
+Code:
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main()
+{
+    float num1,num2;
+    cout<<"Enter First Value: ";
+    cin>>num1;
+    cout<<"Enter Second Value: ";
+    cin>>num2;
+    cout<<""<<endl;
+    cout<<"Sin("<<num1<<"): "<<abs(sin(num1))<<endl;
+    cout<<"Cos("<<num1<<"): "<<abs(ceil(cos(num1)))<<endl;
+    cout<<"Tan("<<num1<<"): "<<ceil(tan(num1))<<endl;
+    cout<<"Log("<<num1<<") (Base = e): "<<log(num1)<<endl;
+    cout<<"Log("<<num1<<") (Base = 10): "<<log10(num1)<<endl;
+    cout<<"Power("<<num1<<"^"<<num2<<"): "<<pow(num1,num2)<<endl;
+    cout<<"Exponential(e"<<num1<<"): "<<exp(num1)<<endl;
+    cout<<"Square Root("<<num1<<"): "<<sqrt(num1)<<endl;
+    cout<<"Ceiling: "<<ceil(num1)<<endl;
+    cout<<"Floor: "<<floor(num1)<<endl;
+    return 0;
+
+}
