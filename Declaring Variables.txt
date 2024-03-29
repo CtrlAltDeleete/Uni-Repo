@@ -1,0 +1,26 @@
+Description: Write a C++ program, which declares integer ‘a’, float ‘b’ and character ‘c’. Ask user for an integer value and store it in ‘a’, for a float value and store it in ‘b’ and for a character value and store it in ‘c’
+
+Code:
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a;                              // Declaring Variables
+    float b;
+    char c;
+    cout<<"Enter Integer Value: ";      // Taking Inputs
+    cin>>a;
+    cout<<"Enter Float Value: ";
+    cin>>b;
+    cout<<"Enter Character Value: ";
+    cin>>c;
+    cout<<""<<endl;                     // empty line
+    cout<<"***You have entered***"<<endl;   // Printing Entered Values on Screen
+    cout<<"Integer Value: "<<a<<endl;
+    cout<<"Float Value: "<<b<<endl;
+    cout<<"Character Value: "<<c<<endl;
+
+    return 0;
+}
